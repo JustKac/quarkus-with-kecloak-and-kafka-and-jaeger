@@ -1,4 +1,4 @@
-package br.com.study.entity;
+package br.com.study.opportunity.entity;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

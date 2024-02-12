@@ -1,6 +1,6 @@
-package br.com.study.quarkusproposal.service;
+package br.com.study.proposal.service;
 
-import br.com.study.quarkusproposal.dto.ProposalDetailsDTO;
+import br.com.study.proposal.dto.ProposalDetailsDTO;
 
 public interface ProposalService {
 

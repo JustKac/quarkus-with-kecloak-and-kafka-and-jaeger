@@ -1,11 +1,11 @@
-package br.com.study.quarkusproposal.message;
+package br.com.study.proposal.message;
 
 import org.eclipse.microprofile.reactive.messaging.Channel;
 import org.eclipse.microprofile.reactive.messaging.Emitter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import br.com.study.quarkusproposal.dto.ProposalDTO;
+import br.com.study.proposal.dto.ProposalDTO;
 import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped

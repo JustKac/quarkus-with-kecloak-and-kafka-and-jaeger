@@ -1,11 +1,11 @@
-package br.com.study.quarkusmineradora.message;
+package br.com.study.quotation.message;
 
 import org.eclipse.microprofile.reactive.messaging.Channel;
 import org.eclipse.microprofile.reactive.messaging.Emitter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import br.com.study.quarkusmineradora.dto.QuotationDTO;
+import br.com.study.quotation.dto.QuotationDTO;
 import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped

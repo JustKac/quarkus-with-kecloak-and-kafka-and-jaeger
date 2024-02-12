@@ -1,10 +1,10 @@
-package br.com.study.service;
+package br.com.study.opportunity.service;
 
 import java.util.List;
 
-import br.com.study.dto.OpportunityDTO;
-import br.com.study.dto.ProposalDTO;
-import br.com.study.dto.QuotationDTO;
+import br.com.study.opportunity.dto.OpportunityDTO;
+import br.com.study.opportunity.dto.ProposalDTO;
+import br.com.study.opportunity.dto.QuotationDTO;
 
 public interface OpportunityService {
 

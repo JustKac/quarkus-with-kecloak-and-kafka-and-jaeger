@@ -1,8 +1,8 @@
-package br.com.study.quarkusmineradora.client;
+package br.com.study.quotation.client;
 
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 
-import br.com.study.quarkusmineradora.dto.CurrencyPriceDTO;
+import br.com.study.quotation.dto.CurrencyPriceDTO;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

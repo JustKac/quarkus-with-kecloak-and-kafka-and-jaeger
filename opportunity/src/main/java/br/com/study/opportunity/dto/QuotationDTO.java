@@ -1,4 +1,4 @@
-package br.com.study.dto;
+package br.com.study.opportunity.dto;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

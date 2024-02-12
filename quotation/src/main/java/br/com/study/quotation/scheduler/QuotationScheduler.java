@@ -1,6 +1,6 @@
-package br.com.study.quarkusmineradora.scheduler;
+package br.com.study.quotation.scheduler;
 
-import br.com.study.quarkusmineradora.service.QuotationService;
+import br.com.study.quotation.service.QuotationService;
 import io.quarkus.scheduler.Scheduled;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;

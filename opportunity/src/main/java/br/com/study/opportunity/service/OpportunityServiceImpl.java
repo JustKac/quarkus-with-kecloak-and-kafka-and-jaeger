@@ -1,17 +1,17 @@
-package br.com.study.service;
+package br.com.study.opportunity.service;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import br.com.study.dto.OpportunityDTO;
-import br.com.study.dto.ProposalDTO;
-import br.com.study.dto.QuotationDTO;
-import br.com.study.entity.Opportunity;
-import br.com.study.entity.Quotation;
-import br.com.study.repository.OpportunityRepository;
-import br.com.study.repository.QuotationRepository;
+import br.com.study.opportunity.dto.OpportunityDTO;
+import br.com.study.opportunity.dto.ProposalDTO;
+import br.com.study.opportunity.dto.QuotationDTO;
+import br.com.study.opportunity.entity.Opportunity;
+import br.com.study.opportunity.entity.Quotation;
+import br.com.study.opportunity.repository.OpportunityRepository;
+import br.com.study.opportunity.repository.QuotationRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;

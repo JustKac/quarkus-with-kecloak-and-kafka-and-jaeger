@@ -1,6 +1,6 @@
-package br.com.study.quarkusmineradora.repository;
+package br.com.study.quotation.repository;
 
-import br.com.study.quarkusmineradora.entity.Quotation;
+import br.com.study.quotation.entity.Quotation;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 

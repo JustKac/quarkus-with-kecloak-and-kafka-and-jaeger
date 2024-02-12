@@ -1,4 +1,4 @@
-package br.com.study.quarkusmineradora.service;
+package br.com.study.quotation.service;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -7,12 +7,12 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 
-import br.com.study.quarkusmineradora.client.CurrencyPriceClient;
-import br.com.study.quarkusmineradora.dto.CurrencyPriceDTO;
-import br.com.study.quarkusmineradora.dto.QuotationDTO;
-import br.com.study.quarkusmineradora.entity.Quotation;
-import br.com.study.quarkusmineradora.message.KafkaEvents;
-import br.com.study.quarkusmineradora.repository.QuotationRepository;
+import br.com.study.quotation.client.CurrencyPriceClient;
+import br.com.study.quotation.dto.CurrencyPriceDTO;
+import br.com.study.quotation.dto.QuotationDTO;
+import br.com.study.quotation.entity.Quotation;
+import br.com.study.quotation.message.KafkaEvents;
+import br.com.study.quotation.repository.QuotationRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 

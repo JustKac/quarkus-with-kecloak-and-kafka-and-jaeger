@@ -1,12 +1,12 @@
-package br.com.study.quarkusproposal.service;
+package br.com.study.proposal.service;
 
 import java.time.LocalDateTime;
 
-import br.com.study.quarkusproposal.dto.ProposalDTO;
-import br.com.study.quarkusproposal.dto.ProposalDetailsDTO;
-import br.com.study.quarkusproposal.entity.Proposal;
-import br.com.study.quarkusproposal.message.KafkaEvent;
-import br.com.study.quarkusproposal.repository.ProposalRepository;
+import br.com.study.proposal.dto.ProposalDTO;
+import br.com.study.proposal.dto.ProposalDetailsDTO;
+import br.com.study.proposal.entity.Proposal;
+import br.com.study.proposal.message.KafkaEvent;
+import br.com.study.proposal.repository.ProposalRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;

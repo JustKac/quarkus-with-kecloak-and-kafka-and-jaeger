@@ -1,9 +1,9 @@
-package br.com.study.controller;
+package br.com.study.opportunity.controller;
 
 import java.util.List;
 
-import br.com.study.dto.OpportunityDTO;
-import br.com.study.service.OpportunityService;
+import br.com.study.opportunity.dto.OpportunityDTO;
+import br.com.study.opportunity.service.OpportunityService;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

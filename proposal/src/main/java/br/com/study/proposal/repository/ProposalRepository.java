@@ -1,8 +1,8 @@
-package br.com.study.quarkusproposal.repository;
+package br.com.study.proposal.repository;
 
 import java.util.Optional;
 
-import br.com.study.quarkusproposal.entity.Proposal;
+import br.com.study.proposal.entity.Proposal;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 

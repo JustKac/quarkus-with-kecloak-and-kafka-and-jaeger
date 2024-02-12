@@ -1,4 +1,4 @@
-package br.com.study.quarkusmineradora.entity;
+package br.com.study.quotation.entity;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

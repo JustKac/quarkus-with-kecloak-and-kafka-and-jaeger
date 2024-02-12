@@ -1,4 +1,4 @@
-package br.com.study.quarkusproposal.entity;
+package br.com.study.proposal.entity;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

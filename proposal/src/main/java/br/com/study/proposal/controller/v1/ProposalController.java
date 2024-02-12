@@ -1,10 +1,10 @@
-package br.com.study.quarkusproposal.controller.v1;
+package br.com.study.proposal.controller.v1;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import br.com.study.quarkusproposal.dto.ProposalDetailsDTO;
-import br.com.study.quarkusproposal.service.ProposalService;
+import br.com.study.proposal.dto.ProposalDetailsDTO;
+import br.com.study.proposal.service.ProposalService;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 import jakarta.ws.rs.Consumes;

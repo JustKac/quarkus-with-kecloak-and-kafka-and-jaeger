@@ -1,4 +1,4 @@
-package br.com.study.quarkusproposal.dto;
+package br.com.study.proposal.dto;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
